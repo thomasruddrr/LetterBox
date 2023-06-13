@@ -113,6 +113,7 @@ function processInput(e) {
 
     if (!gameOver && row == height) {
         gameOver = true;
+        window.location.href = "lose.html";
         document.getElementById("answer").innerText = word;
     }
 }
@@ -134,6 +135,7 @@ function update() {
     if (!guessList.includes(guess)) {
         document.getElementById("answer").innerText = "Not in word list";
         return;
+        
     }
     
     //start processing guess
@@ -172,6 +174,7 @@ function update() {
 
         if (correct == width) {
             gameOver = true;
+            window.location.href = "win.html";
         }
     }
 
