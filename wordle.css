@@ -1,3 +1,4 @@
+/*Defining the general format for application*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -5,10 +6,12 @@ body {
     
 }
 
+/*Defining the properties for the line break under the title*/
 hr {
     width: 500px;
 }
 
+/*Defining stylistic properties for all elements with ID attribute "title"*/
 #title {
     font-size: 36px;
     font-weight: bold;
@@ -16,6 +19,7 @@ hr {
     color: white
 }
 
+/*Defining stylistic properties for all elements with ID attribute "board"*/
 #board {
     width: 350px;
     height: 420px;
@@ -25,6 +29,7 @@ hr {
     flex-wrap: wrap;
 }
 
+/*Defining stylistic properties for all elements with class attribute "title"*/
 .tile {
     /* Box */
     border: 2px solid rgb(00, 96, 88);
@@ -41,25 +46,28 @@ hr {
     align-items: center;
 }
 
+/*Defining stylistic properties for all elements with class attrbute "correct"*/
 .correct {
     background-color: #6AAA64;
     color: white;
     border-color: rgb(00, 96, 88);
 }
 
+/*Defining stylistic properties for all elements with class attrbute "present"*/
 .present {
     background-color: #C9B458;
     color: white;
     border-color: rgb(00, 96, 88);
 }
 
+/*Defining stylistic properties for all elements with class attrbute "absent"*/
 .absent {
     background-color: #787C7E;
     color: white;
     border-color:rgb(00, 96, 88);
 }
 
-
+/*Defining stylistic properties for all elements with class attrbute "keyboard-row"*/
 .keyboard-row {
     width: 400px;
 
@@ -68,6 +76,7 @@ hr {
     flex-wrap: wrap;
 }
 
+/*Defining stylistic properties for all elements with class attrbute "key-tile"*/
 .key-tile {
     width: 36px;
     height: 40px;
@@ -83,6 +92,7 @@ hr {
     color: white
 }
 
+/*Defining stylistic properties for all elements with class attrbute "enter-key-tile"*/
 .enter-key-tile {
     width: 76px;
     height: 40px;
